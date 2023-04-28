@@ -1,0 +1,212 @@
+.detail-book-container-new {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .self-book {
+    margin-top: 100px;
+    margin-bottom: 300px;
+    width: 75%;
+    height: 530px;
+    //background-color: white;
+
+    .main {
+      display: flex;
+      justify-content: space-between;
+      background-color: white;
+      border-radius: 15px;
+      padding: 20px;
+
+      .image-book {
+        width: 40%;
+
+        .icon {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          height: 50px;
+
+          .group-icon {
+            display: flex;
+          }
+        }
+        .image {
+          margin-top: 20px;
+          height: 460px;
+          overflow-y: scroll;
+          background-color: #f3f3f3;
+          border-radius: 10px;
+          padding: 15px;
+
+          .horizontalLine {
+            height: 1.2px;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin-top: 10px;
+            width: 200px;
+          }
+
+          .group-image-preview {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 8px;
+            flex-wrap: wrap;
+
+            .item-book {
+              margin-right: 5px;
+              border: 1px solid #ccc;
+              cursor: pointer;
+            }
+          }
+
+          .image-group-book {
+            height: 370px;
+            overflow-y: scroll;
+            border-right: 1px solid;
+          }
+        }
+      }
+
+      .detail-book {
+        width: 55%;
+
+        .price {
+          font-size: 20px;
+          color: #008bcf;
+          font-weight: 500;
+        }
+
+        .recommend-text {
+          padding: 5px;
+          margin: 12px 0;
+          color: #26a541;
+          background-color: #e8fff3;
+          width: 250px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 5px;
+
+          p {
+            margin-bottom: 0;
+            padding-bottom: 0;
+          }
+        }
+
+        .button-sale {
+          margin-top: 5px;
+          .ant-btn {
+            height: 54px;
+            width: 192px;
+            border-radius: 8px;
+            color: #017dbd;
+            color: white;
+          }
+        }
+
+        .group-text {
+          margin-top: 35px;
+
+          .row-text {
+            display: flex;
+            justify-content: space-between;
+
+            margin-bottom: 1rem;
+            .title {
+              width: 25%;
+              color: #666;
+              font-size: 15px;
+            }
+            .detail {
+              width: 70%;
+              color: #333;
+              font-size: 15px;
+            }
+          }
+        }
+
+        .notification {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #f3f3f3;
+          padding: 10px;
+          border-radius: 5px;
+          margin-top: 20px;
+
+          p {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+
+          .ant-btn {
+            height: 38px;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+
+    .description {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      background-color: white;
+      padding: 20px;
+      border-radius: 15px;
+
+      .left {
+        width: 57%;
+
+        .row1 {
+          display: flex;
+          margin-bottom: 10px;
+
+          .icon {
+            width: 17%;
+          }
+          .detail-icon {
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+
+            h4,
+            h5 {
+              margin-bottom: 0;
+            }
+            h5 {
+              color: #26a541;
+            }
+          }
+        }
+      }
+      .right {
+        width: 40%;
+
+        .row1 {
+          display: flex;
+          margin-bottom: 10px;
+
+          .icon {
+            width: 17%;
+          }
+          .detail-icon {
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+
+            h4,
+            h5 {
+              margin-bottom: 0;
+            }
+            h5 {
+              color: #26a541;
+            }
+          }
+        }
+      }
+    }
+  }
+}
