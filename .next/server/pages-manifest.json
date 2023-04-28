@@ -1,6 +1,20 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html",
+  "/chat-seller": "pages/chat-seller.html",
+  "/detail_book": "pages/detail_book.html",
+  "/home": "pages/home.html",
+  "/forgot-password": "pages/forgot-password.html",
+  "/": "pages/index.html",
+  "/list_posting": "pages/list_posting.html",
+  "/login": "pages/login.html",
+  "/login_page": "pages/login_page.html",
+  "/manager_permission": "pages/manager_permission.html",
+  "/manager_popup": "pages/manager_popup.html",
+  "/payment": "pages/payment.html",
+  "/register": "pages/register.html",
+  "/self_book": "pages/self_book.html",
+  "/user_profile": "pages/user_profile.html",
+  "/_document": "pages/_document.js"
 }
